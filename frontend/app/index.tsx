@@ -6,7 +6,7 @@ export default function IntroPage() {
   const router = useRouter();
 
   const handleStart = () => {
-    router.replace('/(main)' as any);
+    router.replace('/(main)/stock-holdings' as any);
   };
    return (
       <View style={styles.container}>
